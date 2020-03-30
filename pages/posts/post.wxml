@@ -1,0 +1,48 @@
+<view>
+    <swiper indicator-dots="true" autoplay="true" interval="2000">
+        <swiper-item>
+            <image src="/images/wx.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="/images/vr.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="/images/iqiyi.png"></image>
+        </swiper-item>
+    </swiper>
+    <view class="post-container">
+        <view class="post-author-datepost-author-datepost-author-date">
+            <image src="/images/avatar/1.png" class="post-author"></image>
+            <text class="post-date">Nov 25 2016</text>
+        </view>
+        <text class="post-title">正是虾肥蟹壮时</text>
+        <image src="/images/post/crab.png" class="post-image"></image>
+        <text class="post-content">
+            菊黄蟹正肥，品尝秋之味。徐志摩把“看初花的荻芦”和“到楼外楼吃蟹”并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“螯封嫩玉双双满，壳凸红脂块块香”；
+        </text>
+        <view class="post-like">
+            <image src="../../images/icon/chat.png" class="post-like-image"></image>
+            <text class="post-like-font">92</text>
+            <image src="../../images/icon/view.png" class="post-like-image"></image>
+            <text class="post-like-font">65</text>
+        </view>
+    </view>
+
+    <view class="post-container">
+        <view class="post-author-datepost-author-datepost-author-date">
+            <image src="/images/avatar/2.png" class="post-author"></image>
+            <text class="post-date">Nov 25 2016</text>
+        </view>
+        <text class="post-title">比利·肖恩的故事</text>
+        <image src="/images/post/bl.png" class="post-image"></image>
+        <text class="post-content">
+            19岁的德州士兵比利·林恩（乔·阿尔文饰），他在加入美军步兵部队后，被派往伊拉克战场，与其他七名的突击小队成员，在伊拉克与当地反对武装进行了3分43秒的激战，他和战友们在一次交火中大难不死、逃过一劫。
+        </text>
+        <view class="post-like">
+            <image src="../../images/icon/chat.png" class="post-like-image"></image>
+            <text class="post-like-font">160</text>
+            <image src="../../images/icon/view.png" class="post-like-image"></image>
+            <text class="post-like-font">98</text>
+        </view>
+    </view>
+</view>
