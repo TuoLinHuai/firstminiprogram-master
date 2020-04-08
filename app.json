@@ -4,8 +4,12 @@
     "pages/posts/post",
     "pages/posts/post-detail/post-detail"
   ],
+  "requiredBackgroundModes": [
+      "audio",
+      "location"
+    ],
   "window": {
     "navigationBarBackgroundColor": "#405f80"
   },
-  "sitemapLocation": "sitemap85.json"
+  "sitemapLocation": "sitemap28.json"
 }
