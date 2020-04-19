@@ -7,6 +7,8 @@ App({
     wx.setStorageSync('logs', logs)
     },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    // doubanBase:"https://douban.uieee.com/v2/movie"
+    doubanBase:"http://api.douban.com/v2/movie"
   }
 })

@@ -10,7 +10,7 @@ Page({
             url: '../posts/post'
         });*/
 
-        wx.redirectTo({
+        wx.switchTab({
             url: '../posts/post',
             success(res) {
                 // 成功才执行该方法
