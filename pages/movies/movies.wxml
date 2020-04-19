@@ -19,6 +19,6 @@
     </view>
 </view>
 <view class="search-pannel" wx:if="{{searchPannel}}">
-    <image class="not-data" wx:if="{{notData}}" src="/images/notdata1.jpg"></image>
+    <image class="not-data" wx:if="{{notData}}" src="/images/notdata2.jpg"></image>
     <template wx:if="{{!notData}}" is="movieGridTemplate" data="{{...searchResult}}"></template>
 </view>
